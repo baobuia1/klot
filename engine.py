@@ -14,9 +14,9 @@ class Engine(chess.Board):
             self.pop()
         print(good_moves)
         if self.side == -1:
-            return min(good_moves)
+            return min(good_moves, key=good_moves.get)
         else:
-            return max(good_moves)
+            return max(good_moves, key=good_moves.get)
 
     def evaluate(self) -> int:
         evaluation = 0
