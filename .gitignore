@@ -1,0 +1,8 @@
+/.idea
+/Include
+/Lib
+/pyvenv.cfg
+/Scripts
+/test.py
+/ui.py
+/__pycache__
