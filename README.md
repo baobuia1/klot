@@ -1,1 +1,1 @@
-Chess bot
+Chess bot, unfinished
